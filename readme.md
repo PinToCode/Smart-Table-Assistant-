@@ -1,7 +1,7 @@
 # Smart Table Assistant 
 
 <p align="center">
-  <img src="watch.jpeg" width="350">
+  <img src="assets/IMG_6863.jpg" width="350">
 </p>
 
 > An interactive, motion-aware desktop companion and wellbeing workstation assistant powered by the Seeed Studio XIAO BLE (nRF52840 Sense) and a 1.3" SH1106 I2C OLED display.
