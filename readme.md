@@ -1,4 +1,4 @@
-# Smart Table Assistant 🕒🤖
+# Smart Table Assistant 
 
 > An interactive, motion-aware desktop companion and wellbeing workstation assistant powered by the Seeed Studio XIAO BLE (nRF52840 Sense) and a 1.3" SH1106 I2C OLED display.
 
@@ -8,13 +8,13 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 The **Smart Table Assistant** is designed as a glanceable desk companion that monitors workstation activity via an onboard 6-axis IMU, provides multiple dynamic dashboards, and reacts to desk nudges and vibrations. It incorporates expressive companion animations (`RoboEyes`), non-blocking haptic cues, full Bluetooth Low Energy (BLE) telemetry/call alerts, scheduled wellbeing reminders, and an on-screen QR code generator for sharing your GitHub repository directly from the device.
 
 ---
 
-## 📸 Key Features
+## Key Features
 
 - **Motion-Aware Display Modes:**
   - **IMU Wake Mode:** Powers off after 10 seconds of desk stillness; wakes instantly upon any desk tap, keystroke vibration, or nudge.
@@ -31,7 +31,7 @@ The **Smart Table Assistant** is designed as a glanceable desk companion that mo
 
 ---
 
-## 🛠️ Hardware Components
+## Hardware Components
 
 | Component | Specification / Notes |
 | :--- | :--- |
@@ -43,7 +43,7 @@ The **Smart Table Assistant** is designed as a glanceable desk companion that mo
 
 ---
 
-## 📌 Wiring Diagram
+## Wiring Diagram
 
 | XIAO BLE Sense Pin | Target Pin / Component | Description |
 | :--- | :--- | :--- |
@@ -58,7 +58,7 @@ The **Smart Table Assistant** is designed as a glanceable desk companion that mo
 
 ---
 
-## 📦 Required Libraries
+## Required Libraries
 
 Install each of these libraries via the **Arduino Library Manager** (`Sketch` ➔ `Include Library` ➔ `Manage Libraries...`):
 
@@ -71,7 +71,7 @@ Install each of these libraries via the **Arduino Library Manager** (`Sketch` �
 
 ---
 
-## 🕹️ Single-Button Control Map
+## Single-Button Control Map
 
 All interactions are executed through a single tactile button on `D1`:
 
@@ -90,7 +90,7 @@ All interactions are executed through a single tactile button on `D1`:
 
 ---
 
-## 📡 Bluetooth Low Energy (BLE) Interface
+## Bluetooth Low Energy (BLE) Interface
 
 The device advertises under the local name **`XIAO-Watch`**.
 
@@ -107,7 +107,7 @@ The device advertises under the local name **`XIAO-Watch`**.
 
 ---
 
-## 🚀 Quick Start & Flashing
+## Quick Start & Flashing
 
 1. Install [Arduino IDE](https://www.arduino.cc/en/software) (version 2.0+).
 2. Add the Seeed nRF52 board manager package:
@@ -130,6 +130,6 @@ The device advertises under the local name **`XIAO-Watch`**.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE) — free to modify, adapt, and build upon.
